@@ -68,3 +68,15 @@ cd godot-cpp
 * Add C++ include folders to the project
 
 **C:\Public\gdnative_cpp_example\godot-cpp\include;C:\Public\gdnative_cpp_example\godot-cpp\include\core;C:\Public\gdnative_cpp_example\godot-cpp\godot_headers;C:\Public\gdnative_cpp_example\godot-cpp\include\gen**
+
+* Add the godot library to the project
+
+```
+libgodot-cpp.windows.debug.default.lib
+```
+
+* Add to `Linker` General `Additional Library Directories`
+
+```
+C:\Public\gdnative_cpp_example\godot-cpp\bin
+```
