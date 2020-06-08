@@ -1,0 +1,187 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://NodeChromaSDK.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.0
+margin_right = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect1" type="Button" parent="."]
+margin_left = 91.0
+margin_top = 140.0
+margin_right = 164.0
+margin_bottom = 202.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect2" type="Button" parent="."]
+margin_left = 302.0
+margin_top = 139.0
+margin_right = 375.0
+margin_bottom = 201.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect3" type="Button" parent="."]
+margin_left = 499.0
+margin_top = 135.0
+margin_right = 572.0
+margin_bottom = 197.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect4" type="Button" parent="."]
+margin_left = 691.0
+margin_top = 139.0
+margin_right = 764.0
+margin_bottom = 201.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect5" type="Button" parent="."]
+margin_left = 871.0
+margin_top = 136.0
+margin_right = 944.0
+margin_bottom = 198.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect6" type="Button" parent="."]
+margin_left = 94.0
+margin_top = 263.0
+margin_right = 167.0
+margin_bottom = 325.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect11" type="Button" parent="."]
+margin_left = 96.0
+margin_top = 367.0
+margin_right = 169.0
+margin_bottom = 429.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 11"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect12" type="Button" parent="."]
+margin_left = 302.0
+margin_top = 368.0
+margin_right = 375.0
+margin_bottom = 430.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 12"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect13" type="Button" parent="."]
+margin_left = 499.0
+margin_top = 368.0
+margin_right = 572.0
+margin_bottom = 430.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 13"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect14" type="Button" parent="."]
+margin_left = 692.0
+margin_top = 367.0
+margin_right = 765.0
+margin_bottom = 429.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 14"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect15" type="Button" parent="."]
+margin_left = 874.0
+margin_top = 365.0
+margin_right = 947.0
+margin_bottom = 427.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 15"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect7" type="Button" parent="."]
+margin_left = 302.0
+margin_top = 261.0
+margin_right = 375.0
+margin_bottom = 323.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect8" type="Button" parent="."]
+margin_left = 500.0
+margin_top = 257.0
+margin_right = 573.0
+margin_bottom = 319.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect9" type="Button" parent="."]
+margin_left = 690.0
+margin_top = 257.0
+margin_right = 763.0
+margin_bottom = 319.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 9"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect10" type="Button" parent="."]
+margin_left = 870.0
+margin_top = 252.0
+margin_right = 943.0
+margin_bottom = 314.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 10"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelHeader1" type="RichTextLabel" parent="."]
+margin_left = 333.0
+margin_top = 46.0
+margin_right = 706.0
+margin_bottom = 79.0
+text = "Godot Chroma RGB Sample App"
+
+[node name="NodeChromaSDK" type="Node" parent="."]
+script = ExtResource( 1 )
