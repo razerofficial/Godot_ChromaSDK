@@ -46,6 +46,12 @@ git submodule update --init --recursive
 
 * Download [Scons 3.1.2](https://scons.org/tag/releases.html)
 
+* ... or install scons with *pip*
+
+```
+c:\Python27\python.exe -m pip install scons
+```
+
 * Generate the C++ bindings from the `gdnative_cpp_example` folder
 
 ```
