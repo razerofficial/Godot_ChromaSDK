@@ -19,13 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Private\ChromaAnimationAPI.cpp" />
+    <ClCompile Include="Private\ChromaSDKPluginTypes.cpp" />
     <ClCompile Include="Private\GodotLibrary.cpp" />
     <ClCompile Include="Private\NodeChromaSDK.cpp" />
     <ClCompile Include="Private\Root.cpp" />
+    <ClCompile Include="Private\VerifyLibrarySignature.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Public\ChromaAnimationAPI.h" />
+    <ClInclude Include="Public\ChromaSDKPluginTypes.h" />
     <ClInclude Include="Public\NodeChromaSDK.h" />
     <ClInclude Include="Public\Root.h" />
+    <ClInclude Include="Public\RzChromaSDKDefines.h" />
+    <ClInclude Include="Public\RzChromaSDKTypes.h" />
+    <ClInclude Include="Public\RzErrors.h" />
+    <ClInclude Include="Public\VerifyLibrarySignature.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
