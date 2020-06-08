@@ -52,6 +52,12 @@ git submodule update --init --recursive
 c:\Python27\python.exe -m pip install scons
 ```
 
+* Make sure your target *Python* version is first in the path if you have multiple versions installed.
+
+```
+SET PATH=C:\Python27;%PATH%
+```
+
 * Generate the C++ bindings from the `gdnative_cpp_example` folder
 
 ```
