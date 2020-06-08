@@ -16,5 +16,7 @@ namespace godot
 
 		ChromaSDK();
 		~ChromaSDK();
+
+		long PluginInit();
 	};
 }
