@@ -5,17 +5,16 @@
 
 namespace godot
 {
-	class ChromaSDK : public godot::Node
+	class NodeChromaSDK : public godot::Node
 	{
 	private:
-		GODOT_CLASS(ChromaSDK, Node)
+		GODOT_CLASS(NodeChromaSDK, Node)
 	public:
 		static void _register_methods();
 		void _init();
-		void _process(float delta);
 
-		ChromaSDK();
-		~ChromaSDK();
+		NodeChromaSDK();
+		~NodeChromaSDK();
 
 		long PluginInit();
 	};

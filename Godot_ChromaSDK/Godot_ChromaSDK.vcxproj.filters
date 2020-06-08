@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GodotLibrary.cpp">
+    <ClCompile Include="Private\GodotLibrary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Root.cpp">
+    <ClCompile Include="Private\Root.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ChromaSDK.cpp">
+    <ClCompile Include="Private\NodeChromaSDK.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Root.h">
+    <ClInclude Include="Public\Root.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ChromaSDK.h">
+    <ClInclude Include="Public\NodeChromaSDK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

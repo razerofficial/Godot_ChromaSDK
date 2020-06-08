@@ -3,6 +3,6 @@
 [ext_resource path="res://chromasdk_gdnativelibrary.gdnlib" type="GDNativeLibrary" id=1]
 
 [resource]
-resource_name = "ChromaSDK"
-class_name = "ChromaSDK"
+resource_name = "NodeChromaSDK"
+class_name = "NodeChromaSDK"
 library = ExtResource( 1 )

@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GodotLibrary.cpp" />
-    <ClCompile Include="ChromaSDK.cpp" />
-    <ClCompile Include="Root.cpp" />
+    <ClCompile Include="Private\GodotLibrary.cpp" />
+    <ClCompile Include="Private\NodeChromaSDK.cpp" />
+    <ClCompile Include="Private\Root.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChromaSDK.h" />
-    <ClInclude Include="Root.h" />
+    <ClInclude Include="Public\NodeChromaSDK.h" />
+    <ClInclude Include="Public\Root.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
