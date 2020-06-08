@@ -80,3 +80,13 @@ libgodot-cpp.windows.debug.default.lib
 ```
 C:\Public\gdnative_cpp_example\godot-cpp\bin
 ```
+
+## Next Steps
+
+* Tutorial: [Create and Implement C++ Dll's with GDNative | Tutorial Part 4](https://www.youtube.com/watch?v=aPDO9nAP5oM)
+
+* Hook Godot into the API automation
+
+## Sample Projects
+
+* [GodotHello](GodotHello)
