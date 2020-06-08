@@ -64,3 +64,7 @@ SET PATH=C:\Python27;%PATH%
 cd godot-cpp
 "%USERPROFILE%\Downloads\Godot\scons-3.1.2\script\scons.bat" platform=windows generate_bindings=yes -j4
 ```
+
+* Add C++ include folders to the project
+
+**C:\Public\gdnative_cpp_example\godot-cpp\include;C:\Public\gdnative_cpp_example\godot-cpp\include\core;C:\Public\gdnative_cpp_example\godot-cpp\godot_headers;C:\Public\gdnative_cpp_example\godot-cpp\include\gen**
