@@ -40,6 +40,10 @@ git submodule update --init --recursive
 "%USERPROFILE%\Downloads\Godot\Godot_v3.2.1-stable_win64.exe" --gdnative-generate-json-api api.json
 ```
 
+* Install [Python 2.7 or better](https://www.python.org/)
+
+* Install [PIP](https://pip.pypa.io/en/stable/installing/)
+
 * Download [Scons 3.1.2](https://scons.org/tag/releases.html)
 
 * Generate the C++ bindings from the `gdnative_cpp_example` folder
