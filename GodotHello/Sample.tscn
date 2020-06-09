@@ -6,17 +6,20 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 1.0
-margin_right = 1.0
+margin_left = -1.0
+margin_top = 1.0
+margin_right = -1.0
+margin_bottom = 1.0
+rect_pivot_offset = Vector2( 472, 280 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ButtonEffect1" type="Button" parent="."]
-margin_left = 91.0
-margin_top = 140.0
-margin_right = 164.0
-margin_bottom = 202.0
+margin_left = 44.0
+margin_top = 91.0
+margin_right = 117.0
+margin_bottom = 153.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 1"
 __meta__ = {
@@ -24,10 +27,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect2" type="Button" parent="."]
-margin_left = 302.0
-margin_top = 139.0
-margin_right = 375.0
-margin_bottom = 201.0
+margin_left = 138.0
+margin_top = 90.0
+margin_right = 211.0
+margin_bottom = 152.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 2"
 __meta__ = {
@@ -35,10 +38,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect3" type="Button" parent="."]
-margin_left = 499.0
-margin_top = 135.0
-margin_right = 572.0
-margin_bottom = 197.0
+margin_left = 240.0
+margin_top = 91.0
+margin_right = 313.0
+margin_bottom = 153.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 3"
 __meta__ = {
@@ -46,10 +49,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect4" type="Button" parent="."]
-margin_left = 691.0
-margin_top = 139.0
-margin_right = 764.0
-margin_bottom = 201.0
+margin_left = 341.0
+margin_top = 88.0
+margin_right = 414.0
+margin_bottom = 150.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 4"
 __meta__ = {
@@ -57,10 +60,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect5" type="Button" parent="."]
-margin_left = 871.0
-margin_top = 136.0
-margin_right = 944.0
-margin_bottom = 198.0
+margin_left = 437.0
+margin_top = 88.0
+margin_right = 510.0
+margin_bottom = 150.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 5"
 __meta__ = {
@@ -68,10 +71,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect6" type="Button" parent="."]
-margin_left = 94.0
-margin_top = 263.0
-margin_right = 167.0
-margin_bottom = 325.0
+margin_left = 536.0
+margin_top = 88.0
+margin_right = 609.0
+margin_bottom = 150.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 6"
 __meta__ = {
@@ -79,21 +82,307 @@ __meta__ = {
 }
 
 [node name="ButtonEffect11" type="Button" parent="."]
-margin_left = 96.0
-margin_top = 367.0
-margin_right = 169.0
-margin_bottom = 429.0
+margin_left = 43.0
+margin_top = 170.0
+margin_right = 116.0
+margin_bottom = 232.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 11"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="ButtonEffect21" type="Button" parent="."]
+margin_left = 43.0
+margin_top = 249.0
+margin_right = 116.0
+margin_bottom = 311.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 21"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect22" type="Button" parent="."]
+margin_left = 136.0
+margin_top = 250.0
+margin_right = 209.0
+margin_bottom = 312.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 22"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect23" type="Button" parent="."]
+margin_left = 235.0
+margin_top = 250.0
+margin_right = 308.0
+margin_bottom = 312.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 23"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect24" type="Button" parent="."]
+margin_left = 337.0
+margin_top = 252.0
+margin_right = 410.0
+margin_bottom = 314.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 24"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect25" type="Button" parent="."]
+margin_left = 437.0
+margin_top = 253.0
+margin_right = 510.0
+margin_bottom = 315.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 25"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect26" type="Button" parent="."]
+margin_left = 537.0
+margin_top = 252.0
+margin_right = 610.0
+margin_bottom = 314.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 26"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect27" type="Button" parent="."]
+margin_left = 634.0
+margin_top = 252.0
+margin_right = 707.0
+margin_bottom = 314.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 27"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect28" type="Button" parent="."]
+margin_left = 724.0
+margin_top = 252.0
+margin_right = 797.0
+margin_bottom = 314.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 28"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect29" type="Button" parent="."]
+margin_left = 812.0
+margin_top = 252.0
+margin_right = 885.0
+margin_bottom = 314.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 29"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect30" type="Button" parent="."]
+margin_left = 897.0
+margin_top = 253.0
+margin_right = 970.0
+margin_bottom = 315.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 30"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect31" type="Button" parent="."]
+margin_left = 43.0
+margin_top = 338.0
+margin_right = 116.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 31"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect32" type="Button" parent="."]
+margin_left = 135.0
+margin_top = 338.0
+margin_right = 208.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 32"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect33" type="Button" parent="."]
+margin_left = 236.0
+margin_top = 336.0
+margin_right = 309.0
+margin_bottom = 398.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 33"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect34" type="Button" parent="."]
+margin_left = 339.0
+margin_top = 336.0
+margin_right = 412.0
+margin_bottom = 398.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 34"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect35" type="Button" parent="."]
+margin_left = 440.0
+margin_top = 336.0
+margin_right = 513.0
+margin_bottom = 398.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 35"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect36" type="Button" parent="."]
+margin_left = 541.0
+margin_top = 335.0
+margin_right = 614.0
+margin_bottom = 397.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 36"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect37" type="Button" parent="."]
+margin_left = 632.0
+margin_top = 332.0
+margin_right = 705.0
+margin_bottom = 394.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 37"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect38" type="Button" parent="."]
+margin_left = 725.0
+margin_top = 335.0
+margin_right = 798.0
+margin_bottom = 397.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 38"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect39" type="Button" parent="."]
+margin_left = 815.0
+margin_top = 332.0
+margin_right = 888.0
+margin_bottom = 394.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 39"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect40" type="Button" parent="."]
+margin_left = 901.0
+margin_top = 335.0
+margin_right = 974.0
+margin_bottom = 397.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 40"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect41" type="Button" parent="."]
+margin_left = 43.0
+margin_top = 428.0
+margin_right = 116.0
+margin_bottom = 490.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 41"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect42" type="Button" parent="."]
+margin_left = 139.0
+margin_top = 426.0
+margin_right = 212.0
+margin_bottom = 488.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 42"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect43" type="Button" parent="."]
+margin_left = 236.0
+margin_top = 424.0
+margin_right = 309.0
+margin_bottom = 486.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 43"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect44" type="Button" parent="."]
+margin_left = 341.0
+margin_top = 424.0
+margin_right = 414.0
+margin_bottom = 486.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 44"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect45" type="Button" parent="."]
+margin_left = 447.0
+margin_top = 422.0
+margin_right = 520.0
+margin_bottom = 484.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 45"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect46" type="Button" parent="."]
+margin_left = 543.0
+margin_top = 422.0
+margin_right = 616.0
+margin_bottom = 484.0
+rect_pivot_offset = Vector2( 13, 13 )
+text = "Effect 46"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="ButtonEffect12" type="Button" parent="."]
-margin_left = 302.0
-margin_top = 368.0
-margin_right = 375.0
-margin_bottom = 430.0
+margin_left = 139.0
+margin_top = 170.0
+margin_right = 212.0
+margin_bottom = 232.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 12"
 __meta__ = {
@@ -101,10 +390,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect13" type="Button" parent="."]
-margin_left = 499.0
-margin_top = 368.0
-margin_right = 572.0
-margin_bottom = 430.0
+margin_left = 238.0
+margin_top = 173.0
+margin_right = 311.0
+margin_bottom = 235.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 13"
 __meta__ = {
@@ -112,10 +401,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect14" type="Button" parent="."]
-margin_left = 692.0
-margin_top = 367.0
-margin_right = 765.0
-margin_bottom = 429.0
+margin_left = 341.0
+margin_top = 175.0
+margin_right = 414.0
+margin_bottom = 237.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 14"
 __meta__ = {
@@ -123,21 +412,76 @@ __meta__ = {
 }
 
 [node name="ButtonEffect15" type="Button" parent="."]
-margin_left = 874.0
-margin_top = 365.0
-margin_right = 947.0
-margin_bottom = 427.0
-rect_pivot_offset = Vector2( 13, 13 )
+margin_left = 437.0
+margin_top = 175.0
+margin_right = 510.0
+margin_bottom = 237.0
+rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 15"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="ButtonEffect16" type="Button" parent="."]
+margin_left = 537.0
+margin_top = 177.0
+margin_right = 610.0
+margin_bottom = 239.0
+rect_pivot_offset = Vector2( 36.5, 31 )
+text = "Effect 16"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect17" type="Button" parent="."]
+margin_left = 632.0
+margin_top = 175.0
+margin_right = 705.0
+margin_bottom = 237.0
+rect_pivot_offset = Vector2( 36.5, 31 )
+text = "Effect 17"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect18" type="Button" parent="."]
+margin_left = 723.0
+margin_top = 177.0
+margin_right = 796.0
+margin_bottom = 239.0
+rect_pivot_offset = Vector2( 36.5, 31 )
+text = "Effect 18"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect19" type="Button" parent="."]
+margin_left = 810.0
+margin_top = 176.0
+margin_right = 883.0
+margin_bottom = 238.0
+rect_pivot_offset = Vector2( 36.5, 31 )
+text = "Effect 19"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonEffect20" type="Button" parent="."]
+margin_left = 897.0
+margin_top = 174.0
+margin_right = 970.0
+margin_bottom = 236.0
+rect_pivot_offset = Vector2( 36.5, 31 )
+text = "Effect 20"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="ButtonEffect7" type="Button" parent="."]
-margin_left = 302.0
-margin_top = 261.0
-margin_right = 375.0
-margin_bottom = 323.0
+margin_left = 629.0
+margin_top = 89.0
+margin_right = 702.0
+margin_bottom = 151.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 7"
 __meta__ = {
@@ -145,10 +489,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect8" type="Button" parent="."]
-margin_left = 500.0
-margin_top = 257.0
-margin_right = 573.0
-margin_bottom = 319.0
+margin_left = 720.0
+margin_top = 87.0
+margin_right = 793.0
+margin_bottom = 149.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 8"
 __meta__ = {
@@ -156,10 +500,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect9" type="Button" parent="."]
-margin_left = 690.0
-margin_top = 257.0
-margin_right = 763.0
-margin_bottom = 319.0
+margin_left = 809.0
+margin_top = 86.0
+margin_right = 882.0
+margin_bottom = 148.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 9"
 __meta__ = {
@@ -167,10 +511,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect10" type="Button" parent="."]
-margin_left = 870.0
-margin_top = 252.0
-margin_right = 943.0
-margin_bottom = 314.0
+margin_left = 897.0
+margin_top = 85.0
+margin_right = 970.0
+margin_bottom = 147.0
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 10"
 __meta__ = {
@@ -196,10 +540,41 @@ script = ExtResource( 2 )
 [connection signal="button_up" from="ButtonEffect5" to="NodeSample" method="_on_ButtonEffect5_button_up"]
 [connection signal="button_up" from="ButtonEffect6" to="NodeSample" method="_on_ButtonEffect6_button_up"]
 [connection signal="button_up" from="ButtonEffect11" to="NodeSample" method="_on_ButtonEffect11_button_up"]
+[connection signal="button_up" from="ButtonEffect21" to="NodeSample" method="_on_ButtonEffect21_button_up"]
+[connection signal="button_up" from="ButtonEffect22" to="NodeSample" method="_on_ButtonEffect22_button_up"]
+[connection signal="button_up" from="ButtonEffect23" to="NodeSample" method="_on_ButtonEffect23_button_up"]
+[connection signal="button_up" from="ButtonEffect24" to="NodeSample" method="_on_ButtonEffect24_button_up"]
+[connection signal="button_up" from="ButtonEffect25" to="NodeSample" method="_on_ButtonEffect25_button_up"]
+[connection signal="button_up" from="ButtonEffect26" to="NodeSample" method="_on_ButtonEffect26_button_up"]
+[connection signal="button_up" from="ButtonEffect27" to="NodeSample" method="_on_ButtonEffect27_button_up"]
+[connection signal="button_up" from="ButtonEffect28" to="NodeSample" method="_on_ButtonEffect28_button_up"]
+[connection signal="button_up" from="ButtonEffect29" to="NodeSample" method="_on_ButtonEffect29_button_up"]
+[connection signal="button_up" from="ButtonEffect30" to="NodeSample" method="_on_ButtonEffect30_button_up"]
+[connection signal="button_up" from="ButtonEffect31" to="NodeSample" method="_on_ButtonEffect31_button_up"]
+[connection signal="button_up" from="ButtonEffect32" to="NodeSample" method="_on_ButtonEffect32_button_up"]
+[connection signal="button_up" from="ButtonEffect33" to="NodeSample" method="_on_ButtonEffect33_button_up"]
+[connection signal="button_up" from="ButtonEffect34" to="NodeSample" method="_on_ButtonEffect34_button_up"]
+[connection signal="button_up" from="ButtonEffect35" to="NodeSample" method="_on_ButtonEffect35_button_up"]
+[connection signal="button_up" from="ButtonEffect36" to="NodeSample" method="_on_ButtonEffect36_button_up"]
+[connection signal="button_up" from="ButtonEffect37" to="NodeSample" method="_on_ButtonEffect37_button_up"]
+[connection signal="button_up" from="ButtonEffect38" to="NodeSample" method="_on_ButtonEffect38_button_up"]
+[connection signal="button_up" from="ButtonEffect39" to="NodeSample" method="_on_ButtonEffect39_button_up"]
+[connection signal="button_up" from="ButtonEffect40" to="NodeSample" method="_on_ButtonEffect40_button_up"]
+[connection signal="button_up" from="ButtonEffect41" to="NodeSample" method="_on_ButtonEffect41_button_up"]
+[connection signal="button_up" from="ButtonEffect42" to="NodeSample" method="_on_ButtonEffect42_button_up"]
+[connection signal="button_up" from="ButtonEffect43" to="NodeSample" method="_on_ButtonEffect43_button_up"]
+[connection signal="button_up" from="ButtonEffect44" to="NodeSample" method="_on_ButtonEffect44_button_up"]
+[connection signal="button_up" from="ButtonEffect45" to="NodeSample" method="_on_ButtonEffect45_button_up"]
+[connection signal="button_up" from="ButtonEffect46" to="NodeSample" method="_on_ButtonEffect46_button_up"]
 [connection signal="button_up" from="ButtonEffect12" to="NodeSample" method="_on_ButtonEffect12_button_up"]
 [connection signal="button_up" from="ButtonEffect13" to="NodeSample" method="_on_ButtonEffect13_button_up"]
 [connection signal="button_up" from="ButtonEffect14" to="NodeSample" method="_on_ButtonEffect14_button_up"]
 [connection signal="button_up" from="ButtonEffect15" to="NodeSample" method="_on_ButtonEffect15_button_up"]
+[connection signal="button_up" from="ButtonEffect16" to="NodeSample" method="_on_ButtonEffect16_button_up"]
+[connection signal="button_up" from="ButtonEffect17" to="NodeSample" method="_on_ButtonEffect17_button_up"]
+[connection signal="button_up" from="ButtonEffect18" to="NodeSample" method="_on_ButtonEffect18_button_up"]
+[connection signal="button_up" from="ButtonEffect19" to="NodeSample" method="_on_ButtonEffect19_button_up"]
+[connection signal="button_up" from="ButtonEffect20" to="NodeSample" method="_on_ButtonEffect20_button_up"]
 [connection signal="button_up" from="ButtonEffect7" to="NodeSample" method="_on_ButtonEffect7_button_up"]
 [connection signal="button_up" from="ButtonEffect8" to="NodeSample" method="_on_ButtonEffect8_button_up"]
 [connection signal="button_up" from="ButtonEffect9" to="NodeSample" method="_on_ButtonEffect9_button_up"]

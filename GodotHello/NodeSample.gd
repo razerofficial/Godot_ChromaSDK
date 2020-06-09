@@ -79,3 +79,96 @@ func _on_ButtonEffect14_button_up():
 
 func _on_ButtonEffect15_button_up():
 	pass # Replace with function body.
+
+func _on_ButtonEffect16_button_up():
+	pass # Replace with function body.
+
+func _on_ButtonEffect17_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect18_button_up():
+	pass # Replace with function body.
+
+func _on_ButtonEffect19_button_up():
+	pass # Replace with function body.
+
+func _on_ButtonEffect20_button_up():
+	pass # Replace with function body.
+
+func _on_ButtonEffect21_button_up():
+	pass # Replace with function body.
+
+func _on_ButtonEffect22_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect23_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect24_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect25_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect26_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect27_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect28_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect29_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect30_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect31_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect32_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect33_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect34_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect35_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect36_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect37_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect38_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect39_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect40_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect41_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect42_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect43_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect44_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect45_button_up():
+	pass # Replace with function body.
+	
+func _on_ButtonEffect46_button_up():
+	pass # Replace with function body.
