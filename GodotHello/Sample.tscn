@@ -11,12 +11,23 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="LabelHeader1" type="RichTextLabel" parent="."]
-margin_left = 433.0
-margin_top = 31.0
-margin_right = 653.0
-margin_bottom = 64.0
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LabelHeader1" type="RichTextLabel" parent="CenterContainer"]
+margin_left = 402.0
+margin_top = 18.0
+margin_right = 622.0
+margin_bottom = 38.0
+rect_min_size = Vector2( 220, 20 )
 text = "Godot Chroma RGB Sample App"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="ChromaAnimationAPI" type="Node" parent="."]
 script = ExtResource( 1 )
