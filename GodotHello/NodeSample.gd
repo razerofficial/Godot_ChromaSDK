@@ -13,14 +13,18 @@ func _ready():
 			pass
 		else: print("Chroma Init Returned Error: "+str(result)+"!")
 	else: print("Chroma SDK Plugin API is not initialized!")
-
-func _on_ButtonEffect1_button_up():
+	
+func IsChromaInitialized():
 	if (ChromaAnimationAPI.IsAPIInitialized()):
 		if (ChromaAnimationAPI.IsInitialized()):
-			ChromaAnimationAPI.PlayAnimationName("Animations/Spiral_Keyboard.chroma", true)
+			return true
 		else: print("Chroma SDK is not initialized")
 	else: print("Chroma SDK Plugin API is not initialized")
+	return false
 
+func _on_ButtonEffect1_button_up():
+	if (IsChromaInitialized()):
+		ChromaAnimationAPI.PlayAnimationName("Animations/Spiral_Keyboard.chroma", true)
 
 func _on_ButtonEffect2_button_up():
 		print("Button 2")
