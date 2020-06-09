@@ -25,6 +25,7 @@ script = ExtResource( 1 )
 script = ExtResource( 2 )
 
 [node name="GridContainer" type="GridContainer" parent="."]
+anchor_bottom = 0.213333
 margin_left = 25.0
 margin_top = 87.0
 margin_right = 1001.0
@@ -40,9 +41,9 @@ __meta__ = {
 }
 
 [node name="ButtonEffect1" type="Button" parent="GridContainer"]
-margin_right = 100.0
+margin_right = 75.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 1"
 __meta__ = {
@@ -50,10 +51,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect2" type="Button" parent="GridContainer"]
-margin_left = 125.0
-margin_right = 225.0
+margin_left = 100.0
+margin_right = 175.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 2"
 __meta__ = {
@@ -61,10 +62,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect3" type="Button" parent="GridContainer"]
-margin_left = 250.0
-margin_right = 350.0
+margin_left = 200.0
+margin_right = 275.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 3"
 __meta__ = {
@@ -72,10 +73,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect4" type="Button" parent="GridContainer"]
-margin_left = 375.0
-margin_right = 475.0
+margin_left = 300.0
+margin_right = 375.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 4"
 __meta__ = {
@@ -83,10 +84,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect5" type="Button" parent="GridContainer"]
-margin_left = 500.0
-margin_right = 600.0
+margin_left = 400.0
+margin_right = 475.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 5"
 __meta__ = {
@@ -94,10 +95,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect6" type="Button" parent="GridContainer"]
-margin_left = 625.0
-margin_right = 725.0
+margin_left = 500.0
+margin_right = 575.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 6"
 __meta__ = {
@@ -105,10 +106,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect7" type="Button" parent="GridContainer"]
-margin_left = 750.0
-margin_right = 850.0
+margin_left = 600.0
+margin_right = 675.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 7"
 __meta__ = {
@@ -116,10 +117,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect8" type="Button" parent="GridContainer"]
-margin_left = 875.0
-margin_right = 975.0
+margin_left = 700.0
+margin_right = 775.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 8"
 __meta__ = {
@@ -127,10 +128,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect9" type="Button" parent="GridContainer"]
-margin_left = 1000.0
-margin_right = 1100.0
+margin_left = 800.0
+margin_right = 875.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 9"
 __meta__ = {
@@ -138,10 +139,10 @@ __meta__ = {
 }
 
 [node name="ButtonEffect10" type="Button" parent="GridContainer"]
-margin_left = 1125.0
-margin_right = 1225.0
+margin_left = 900.0
+margin_right = 975.0
 margin_bottom = 60.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 10"
 __meta__ = {
@@ -150,9 +151,9 @@ __meta__ = {
 
 [node name="ButtonEffect11" type="Button" parent="GridContainer"]
 margin_top = 85.0
-margin_right = 100.0
+margin_right = 75.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 11"
 __meta__ = {
@@ -160,11 +161,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect12" type="Button" parent="GridContainer"]
-margin_left = 125.0
+margin_left = 100.0
 margin_top = 85.0
-margin_right = 225.0
+margin_right = 175.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 12"
 __meta__ = {
@@ -172,11 +173,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect13" type="Button" parent="GridContainer"]
-margin_left = 250.0
+margin_left = 200.0
 margin_top = 85.0
-margin_right = 350.0
+margin_right = 275.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 13"
 __meta__ = {
@@ -184,11 +185,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect14" type="Button" parent="GridContainer"]
-margin_left = 375.0
+margin_left = 300.0
 margin_top = 85.0
-margin_right = 475.0
+margin_right = 375.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 14"
 __meta__ = {
@@ -196,11 +197,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect15" type="Button" parent="GridContainer"]
-margin_left = 500.0
+margin_left = 400.0
 margin_top = 85.0
-margin_right = 600.0
+margin_right = 475.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 15"
 __meta__ = {
@@ -208,11 +209,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect16" type="Button" parent="GridContainer"]
-margin_left = 625.0
+margin_left = 500.0
 margin_top = 85.0
-margin_right = 725.0
+margin_right = 575.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 16"
 __meta__ = {
@@ -220,11 +221,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect17" type="Button" parent="GridContainer"]
-margin_left = 750.0
+margin_left = 600.0
 margin_top = 85.0
-margin_right = 850.0
+margin_right = 675.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 17"
 __meta__ = {
@@ -232,11 +233,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect18" type="Button" parent="GridContainer"]
-margin_left = 875.0
+margin_left = 700.0
 margin_top = 85.0
-margin_right = 975.0
+margin_right = 775.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 18"
 __meta__ = {
@@ -244,11 +245,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect19" type="Button" parent="GridContainer"]
-margin_left = 1000.0
+margin_left = 800.0
 margin_top = 85.0
-margin_right = 1100.0
+margin_right = 875.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 19"
 __meta__ = {
@@ -256,11 +257,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect20" type="Button" parent="GridContainer"]
-margin_left = 1125.0
+margin_left = 900.0
 margin_top = 85.0
-margin_right = 1225.0
+margin_right = 975.0
 margin_bottom = 145.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 36.5, 31 )
 text = "Effect 20"
 __meta__ = {
@@ -269,9 +270,9 @@ __meta__ = {
 
 [node name="ButtonEffect21" type="Button" parent="GridContainer"]
 margin_top = 170.0
-margin_right = 100.0
+margin_right = 75.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 21"
 __meta__ = {
@@ -279,11 +280,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect22" type="Button" parent="GridContainer"]
-margin_left = 125.0
+margin_left = 100.0
 margin_top = 170.0
-margin_right = 225.0
+margin_right = 175.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 22"
 __meta__ = {
@@ -291,11 +292,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect23" type="Button" parent="GridContainer"]
-margin_left = 250.0
+margin_left = 200.0
 margin_top = 170.0
-margin_right = 350.0
+margin_right = 275.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 23"
 __meta__ = {
@@ -303,11 +304,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect24" type="Button" parent="GridContainer"]
-margin_left = 375.0
+margin_left = 300.0
 margin_top = 170.0
-margin_right = 475.0
+margin_right = 375.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 24"
 __meta__ = {
@@ -315,11 +316,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect25" type="Button" parent="GridContainer"]
-margin_left = 500.0
+margin_left = 400.0
 margin_top = 170.0
-margin_right = 600.0
+margin_right = 475.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 25"
 __meta__ = {
@@ -327,11 +328,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect26" type="Button" parent="GridContainer"]
-margin_left = 625.0
+margin_left = 500.0
 margin_top = 170.0
-margin_right = 725.0
+margin_right = 575.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 26"
 __meta__ = {
@@ -339,11 +340,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect27" type="Button" parent="GridContainer"]
-margin_left = 750.0
+margin_left = 600.0
 margin_top = 170.0
-margin_right = 850.0
+margin_right = 675.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 27"
 __meta__ = {
@@ -351,11 +352,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect28" type="Button" parent="GridContainer"]
-margin_left = 875.0
+margin_left = 700.0
 margin_top = 170.0
-margin_right = 975.0
+margin_right = 775.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 28"
 __meta__ = {
@@ -363,11 +364,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect29" type="Button" parent="GridContainer"]
-margin_left = 1000.0
+margin_left = 800.0
 margin_top = 170.0
-margin_right = 1100.0
+margin_right = 875.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 29"
 __meta__ = {
@@ -375,11 +376,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect30" type="Button" parent="GridContainer"]
-margin_left = 1125.0
+margin_left = 900.0
 margin_top = 170.0
-margin_right = 1225.0
+margin_right = 975.0
 margin_bottom = 230.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 30"
 __meta__ = {
@@ -388,9 +389,9 @@ __meta__ = {
 
 [node name="ButtonEffect31" type="Button" parent="GridContainer"]
 margin_top = 255.0
-margin_right = 100.0
+margin_right = 75.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 31"
 __meta__ = {
@@ -398,11 +399,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect32" type="Button" parent="GridContainer"]
-margin_left = 125.0
+margin_left = 100.0
 margin_top = 255.0
-margin_right = 225.0
+margin_right = 175.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 32"
 __meta__ = {
@@ -410,11 +411,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect33" type="Button" parent="GridContainer"]
-margin_left = 250.0
+margin_left = 200.0
 margin_top = 255.0
-margin_right = 350.0
+margin_right = 275.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 33"
 __meta__ = {
@@ -422,11 +423,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect34" type="Button" parent="GridContainer"]
-margin_left = 375.0
+margin_left = 300.0
 margin_top = 255.0
-margin_right = 475.0
+margin_right = 375.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 34"
 __meta__ = {
@@ -434,11 +435,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect35" type="Button" parent="GridContainer"]
-margin_left = 500.0
+margin_left = 400.0
 margin_top = 255.0
-margin_right = 600.0
+margin_right = 475.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 35"
 __meta__ = {
@@ -446,11 +447,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect36" type="Button" parent="GridContainer"]
-margin_left = 625.0
+margin_left = 500.0
 margin_top = 255.0
-margin_right = 725.0
+margin_right = 575.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 36"
 __meta__ = {
@@ -458,11 +459,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect37" type="Button" parent="GridContainer"]
-margin_left = 750.0
+margin_left = 600.0
 margin_top = 255.0
-margin_right = 850.0
+margin_right = 675.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 37"
 __meta__ = {
@@ -470,11 +471,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect38" type="Button" parent="GridContainer"]
-margin_left = 875.0
+margin_left = 700.0
 margin_top = 255.0
-margin_right = 975.0
+margin_right = 775.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 38"
 __meta__ = {
@@ -482,11 +483,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect39" type="Button" parent="GridContainer"]
-margin_left = 1000.0
+margin_left = 800.0
 margin_top = 255.0
-margin_right = 1100.0
+margin_right = 875.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 39"
 __meta__ = {
@@ -494,11 +495,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect40" type="Button" parent="GridContainer"]
-margin_left = 1125.0
+margin_left = 900.0
 margin_top = 255.0
-margin_right = 1225.0
+margin_right = 975.0
 margin_bottom = 315.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 40"
 __meta__ = {
@@ -507,9 +508,9 @@ __meta__ = {
 
 [node name="ButtonEffect41" type="Button" parent="GridContainer"]
 margin_top = 340.0
-margin_right = 100.0
+margin_right = 75.0
 margin_bottom = 400.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 41"
 __meta__ = {
@@ -517,11 +518,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect42" type="Button" parent="GridContainer"]
-margin_left = 125.0
+margin_left = 100.0
 margin_top = 340.0
-margin_right = 225.0
+margin_right = 175.0
 margin_bottom = 400.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 42"
 __meta__ = {
@@ -529,11 +530,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect43" type="Button" parent="GridContainer"]
-margin_left = 250.0
+margin_left = 200.0
 margin_top = 340.0
-margin_right = 350.0
+margin_right = 275.0
 margin_bottom = 400.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 43"
 __meta__ = {
@@ -541,11 +542,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect44" type="Button" parent="GridContainer"]
-margin_left = 375.0
+margin_left = 300.0
 margin_top = 340.0
-margin_right = 475.0
+margin_right = 375.0
 margin_bottom = 400.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 44"
 __meta__ = {
@@ -553,11 +554,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect45" type="Button" parent="GridContainer"]
-margin_left = 500.0
+margin_left = 400.0
 margin_top = 340.0
-margin_right = 600.0
+margin_right = 475.0
 margin_bottom = 400.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 45"
 __meta__ = {
@@ -565,11 +566,11 @@ __meta__ = {
 }
 
 [node name="ButtonEffect46" type="Button" parent="GridContainer"]
-margin_left = 625.0
+margin_left = 500.0
 margin_top = 340.0
-margin_right = 725.0
+margin_right = 575.0
 margin_bottom = 400.0
-rect_min_size = Vector2( 100, 60 )
+rect_min_size = Vector2( 75, 60 )
 rect_pivot_offset = Vector2( 13, 13 )
 text = "Effect 46"
 __meta__ = {
