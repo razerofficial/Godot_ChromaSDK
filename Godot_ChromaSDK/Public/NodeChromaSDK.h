@@ -17,7 +17,7 @@ namespace godot
 		NodeChromaSDK();
 		~NodeChromaSDK();
 
-		bool IsApiIninitialized();
+		bool IsAPIInitialized();
 
 	protected:
 		bool _mInitializedAPI;

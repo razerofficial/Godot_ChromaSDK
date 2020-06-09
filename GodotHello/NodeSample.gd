@@ -3,10 +3,10 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$"../NodeChromaSDK".Init();
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+	if ($"../NodeChromaSDK".IsAPIInitialized()):
+		print("Chroma SDK Plugin API is initialized!")
+		var result = $"../NodeChromaSDK".Init();
+		if (result == 0):
+			print("Chroma is initialized!")
+		else: print("Chroma Init Returned: "+str(result)+"!")
+	else: print("Chroma SDK Plugin API is not initialized!")
