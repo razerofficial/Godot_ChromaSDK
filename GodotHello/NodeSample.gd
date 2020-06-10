@@ -3795,7 +3795,7 @@ func showEffect44():
 		keys.append(Keyboard.RZKEY.RZKEY_P)
 		keys.append(Keyboard.RZKEY.RZKEY_M)
 		keys.append(Keyboard.RZKEY.RZKEY_F1)
-		ChromaAnimationAPI.CopyKeysColorAllFramesName(layer2, baseLayer, keys)
+		ChromaAnimationAPI.CopyKeysColorAllFramesName(layer2, baseLayer, keys, keys.size())
 	ChromaAnimationAPI.SetChromaCustomFlagName(baseLayer, true)
 	ChromaAnimationAPI.SetChromaCustomColorAllFramesName(baseLayer)
 	ChromaAnimationAPI.OverrideFrameDurationName(baseLayer, 0.033)

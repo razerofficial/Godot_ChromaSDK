@@ -58,12 +58,12 @@ void NodeChromaSDK::_register_methods() {
 	register_method((char*)"CopyKeyColorAllFramesOffsetNameD", &NodeChromaSDK::CopyKeyColorAllFramesOffsetNameD);
 	register_method((char*)"CopyKeyColorName", &NodeChromaSDK::CopyKeyColorName);
 	register_method((char*)"CopyKeyColorNameD", &NodeChromaSDK::CopyKeyColorNameD);
-	//register_method((char*)"CopyKeysColor", &NodeChromaSDK::CopyKeysColor);
-	//register_method((char*)"CopyKeysColorAllFrames", &NodeChromaSDK::CopyKeysColorAllFrames);
-	//register_method((char*)"CopyKeysColorAllFramesName", &NodeChromaSDK::CopyKeysColorAllFramesName);
-	//register_method((char*)"CopyKeysColorName", &NodeChromaSDK::CopyKeysColorName);
-	//register_method((char*)"CopyKeysColorOffset", &NodeChromaSDK::CopyKeysColorOffset);
-	//register_method((char*)"CopyKeysColorOffsetName", &NodeChromaSDK::CopyKeysColorOffsetName);
+	register_method((char*)"CopyKeysColor", &NodeChromaSDK::CopyKeysColor);
+	register_method((char*)"CopyKeysColorAllFrames", &NodeChromaSDK::CopyKeysColorAllFrames);
+	register_method((char*)"CopyKeysColorAllFramesName", &NodeChromaSDK::CopyKeysColorAllFramesName);
+	register_method((char*)"CopyKeysColorName", &NodeChromaSDK::CopyKeysColorName);
+	register_method((char*)"CopyKeysColorOffset", &NodeChromaSDK::CopyKeysColorOffset);
+	register_method((char*)"CopyKeysColorOffsetName", &NodeChromaSDK::CopyKeysColorOffsetName);
 	register_method((char*)"CopyNonZeroAllKeys", &NodeChromaSDK::CopyNonZeroAllKeys);
 	register_method((char*)"CopyNonZeroAllKeysAllFrames", &NodeChromaSDK::CopyNonZeroAllKeysAllFrames);
 	register_method((char*)"CopyNonZeroAllKeysAllFramesName", &NodeChromaSDK::CopyNonZeroAllKeysAllFramesName);
@@ -426,28 +426,28 @@ void NodeChromaSDK::_register_methods() {
 	register_method((char*)"SetKeyNonZeroColorRGB", &NodeChromaSDK::SetKeyNonZeroColorRGB);
 	register_method((char*)"SetKeyNonZeroColorRGBName", &NodeChromaSDK::SetKeyNonZeroColorRGBName);
 	register_method((char*)"SetKeyNonZeroColorRGBNameD", &NodeChromaSDK::SetKeyNonZeroColorRGBNameD);
-	//register_method((char*)"SetKeysColor", &NodeChromaSDK::SetKeysColor);
-	//register_method((char*)"SetKeysColorAllFrames", &NodeChromaSDK::SetKeysColorAllFrames);
+	register_method((char*)"SetKeysColor", &NodeChromaSDK::SetKeysColor);
+	register_method((char*)"SetKeysColorAllFrames", &NodeChromaSDK::SetKeysColorAllFrames);
 	register_method((char*)"SetKeysColorAllFramesName", &NodeChromaSDK::SetKeysColorAllFramesName);
-	//register_method((char*)"SetKeysColorAllFramesRGB", &NodeChromaSDK::SetKeysColorAllFramesRGB);
-	//register_method((char*)"SetKeysColorAllFramesRGBName", &NodeChromaSDK::SetKeysColorAllFramesRGBName);
-	//register_method((char*)"SetKeysColorName", &NodeChromaSDK::SetKeysColorName);
-	//register_method((char*)"SetKeysColorRGB", &NodeChromaSDK::SetKeysColorRGB);
-	//register_method((char*)"SetKeysColorRGBName", &NodeChromaSDK::SetKeysColorRGBName);
-	//register_method((char*)"SetKeysNonZeroColor", &NodeChromaSDK::SetKeysNonZeroColor);
-	//register_method((char*)"SetKeysNonZeroColorAllFrames", &NodeChromaSDK::SetKeysNonZeroColorAllFrames);
-	//register_method((char*)"SetKeysNonZeroColorAllFramesName", &NodeChromaSDK::SetKeysNonZeroColorAllFramesName);
-	//register_method((char*)"SetKeysNonZeroColorName", &NodeChromaSDK::SetKeysNonZeroColorName);
-	//register_method((char*)"SetKeysNonZeroColorRGB", &NodeChromaSDK::SetKeysNonZeroColorRGB);
-	//register_method((char*)"SetKeysNonZeroColorRGBName", &NodeChromaSDK::SetKeysNonZeroColorRGBName);
-	//register_method((char*)"SetKeysZeroColor", &NodeChromaSDK::SetKeysZeroColor);
-	//register_method((char*)"SetKeysZeroColorAllFrames", &NodeChromaSDK::SetKeysZeroColorAllFrames);
-	//register_method((char*)"SetKeysZeroColorAllFramesName", &NodeChromaSDK::SetKeysZeroColorAllFramesName);
-	//register_method((char*)"SetKeysZeroColorAllFramesRGB", &NodeChromaSDK::SetKeysZeroColorAllFramesRGB);
-	//register_method((char*)"SetKeysZeroColorAllFramesRGBName", &NodeChromaSDK::SetKeysZeroColorAllFramesRGBName);
-	//register_method((char*)"SetKeysZeroColorName", &NodeChromaSDK::SetKeysZeroColorName);
-	//register_method((char*)"SetKeysZeroColorRGB", &NodeChromaSDK::SetKeysZeroColorRGB);
-	//register_method((char*)"SetKeysZeroColorRGBName", &NodeChromaSDK::SetKeysZeroColorRGBName);
+	register_method((char*)"SetKeysColorAllFramesRGB", &NodeChromaSDK::SetKeysColorAllFramesRGB);
+	register_method((char*)"SetKeysColorAllFramesRGBName", &NodeChromaSDK::SetKeysColorAllFramesRGBName);
+	register_method((char*)"SetKeysColorName", &NodeChromaSDK::SetKeysColorName);
+	register_method((char*)"SetKeysColorRGB", &NodeChromaSDK::SetKeysColorRGB);
+	register_method((char*)"SetKeysColorRGBName", &NodeChromaSDK::SetKeysColorRGBName);
+	register_method((char*)"SetKeysNonZeroColor", &NodeChromaSDK::SetKeysNonZeroColor);
+	register_method((char*)"SetKeysNonZeroColorAllFrames", &NodeChromaSDK::SetKeysNonZeroColorAllFrames);
+	register_method((char*)"SetKeysNonZeroColorAllFramesName", &NodeChromaSDK::SetKeysNonZeroColorAllFramesName);
+	register_method((char*)"SetKeysNonZeroColorName", &NodeChromaSDK::SetKeysNonZeroColorName);
+	register_method((char*)"SetKeysNonZeroColorRGB", &NodeChromaSDK::SetKeysNonZeroColorRGB);
+	register_method((char*)"SetKeysNonZeroColorRGBName", &NodeChromaSDK::SetKeysNonZeroColorRGBName);
+	register_method((char*)"SetKeysZeroColor", &NodeChromaSDK::SetKeysZeroColor);
+	register_method((char*)"SetKeysZeroColorAllFrames", &NodeChromaSDK::SetKeysZeroColorAllFrames);
+	register_method((char*)"SetKeysZeroColorAllFramesName", &NodeChromaSDK::SetKeysZeroColorAllFramesName);
+	register_method((char*)"SetKeysZeroColorAllFramesRGB", &NodeChromaSDK::SetKeysZeroColorAllFramesRGB);
+	register_method((char*)"SetKeysZeroColorAllFramesRGBName", &NodeChromaSDK::SetKeysZeroColorAllFramesRGBName);
+	register_method((char*)"SetKeysZeroColorName", &NodeChromaSDK::SetKeysZeroColorName);
+	register_method((char*)"SetKeysZeroColorRGB", &NodeChromaSDK::SetKeysZeroColorRGB);
+	register_method((char*)"SetKeysZeroColorRGBName", &NodeChromaSDK::SetKeysZeroColorRGBName);
 	register_method((char*)"SetKeyZeroColor", &NodeChromaSDK::SetKeyZeroColor);
 	register_method((char*)"SetKeyZeroColorName", &NodeChromaSDK::SetKeyZeroColorName);
 	register_method((char*)"SetKeyZeroColorNameD", &NodeChromaSDK::SetKeyZeroColorNameD);
@@ -989,27 +989,54 @@ double godot::NodeChromaSDK::CopyKeyColorNameD(String sourceAnimation, String ta
 	target animation for the given frame. Reference the source and target by
 	id.
 */
-void godot::NodeChromaSDK::CopyKeysColor(int sourceAnimationId, int targetAnimationId, int frameId, int* keys, int size)
+void godot::NodeChromaSDK::CopyKeysColor(int sourceAnimationId, int targetAnimationId, int frameId, Array keys, int size)
 {
-	ChromaAnimationAPI::CopyKeysColor(sourceAnimationId, targetAnimationId, frameId, keys, size);
+	if (keys.size())
+	{
+		int* ptrKeys = new int[keys.size()];
+		for (int i = 0; i < keys.size(); ++i)
+		{
+			ptrKeys[i] = (int)keys[i];
+		}
+		ChromaAnimationAPI::CopyKeysColor(sourceAnimationId, targetAnimationId, frameId, ptrKeys, size);
+		delete[] ptrKeys;
+	}
 }
 
 /*
 	Copy animation color for a set of keys from the source animation to the
 	target animation for all frames. Reference the source and target by id.
 */
-void godot::NodeChromaSDK::CopyKeysColorAllFrames(int sourceAnimationId, int targetAnimationId, int* keys, int size)
+void godot::NodeChromaSDK::CopyKeysColorAllFrames(int sourceAnimationId, int targetAnimationId, Array keys, int size)
 {
-	ChromaAnimationAPI::CopyKeysColorAllFrames(sourceAnimationId, targetAnimationId, keys, size);
+	if (keys.size())
+	{
+		int* ptrKeys = new int[keys.size()];
+		for (int i = 0; i < keys.size(); ++i)
+		{
+			ptrKeys[i] = (int)keys[i];
+		}
+		ChromaAnimationAPI::CopyKeysColorAllFrames(sourceAnimationId, targetAnimationId, ptrKeys, size);
+		delete[] ptrKeys;
+	}
 }
 
 /*
 	Copy animation color for a set of keys from the source animation to the
 	target animation for all frames. Reference the source and target by name.
 */
-void godot::NodeChromaSDK::CopyKeysColorAllFramesName(String sourceAnimation, String targetAnimation, int* keys, int size)
+void godot::NodeChromaSDK::CopyKeysColorAllFramesName(String sourceAnimation, String targetAnimation, Array keys, int size)
 {
-	ChromaAnimationAPI::CopyKeysColorAllFramesName(sourceAnimation.utf8().get_data(), targetAnimation.utf8().get_data(), keys, size);
+	if (keys.size())
+	{
+		int* ptrKeys = new int[keys.size()];
+		for (int i = 0; i < keys.size(); ++i)
+		{
+			ptrKeys[i] = (int)keys[i];
+		}
+		ChromaAnimationAPI::CopyKeysColorAllFramesName(sourceAnimation.utf8().get_data(), targetAnimation.utf8().get_data(), ptrKeys, size);
+		delete[] ptrKeys;
+	}
 }
 
 /*
@@ -1017,9 +1044,18 @@ void godot::NodeChromaSDK::CopyKeysColorAllFramesName(String sourceAnimation, St
 	target animation for the given frame. Reference the source and target by
 	name.
 */
-void godot::NodeChromaSDK::CopyKeysColorName(String sourceAnimation, String targetAnimation, int frameId, int* keys, int size)
+void godot::NodeChromaSDK::CopyKeysColorName(String sourceAnimation, String targetAnimation, int frameId, Array keys, int size)
 {
-	ChromaAnimationAPI::CopyKeysColorName(sourceAnimation.utf8().get_data(), targetAnimation.utf8().get_data(), frameId, keys, size);
+	if (keys.size())
+	{
+		int* ptrKeys = new int[keys.size()];
+		for (int i = 0; i < keys.size(); ++i)
+		{
+			ptrKeys[i] = (int)keys[i];
+		}
+		ChromaAnimationAPI::CopyKeysColorName(sourceAnimation.utf8().get_data(), targetAnimation.utf8().get_data(), frameId, ptrKeys, size);
+		delete[] ptrKeys;
+	}
 }
 
 /*
@@ -1027,9 +1063,18 @@ void godot::NodeChromaSDK::CopyKeysColorName(String sourceAnimation, String targ
 	target animation from the source frame to the target frame. Reference the
 	source and target by id.
 */
-void godot::NodeChromaSDK::CopyKeysColorOffset(int sourceAnimationId, int targetAnimationId, int sourceFrameId, int targetFrameId, int* keys, int size)
+void godot::NodeChromaSDK::CopyKeysColorOffset(int sourceAnimationId, int targetAnimationId, int sourceFrameId, int targetFrameId, Array keys, int size)
 {
-	ChromaAnimationAPI::CopyKeysColorOffset(sourceAnimationId, targetAnimationId, sourceFrameId, targetFrameId, keys, size);
+	if (keys.size())
+	{
+		int* ptrKeys = new int[keys.size()];
+		for (int i = 0; i < keys.size(); ++i)
+		{
+			ptrKeys[i] = (int)keys[i];
+		}
+		ChromaAnimationAPI::CopyKeysColorOffset(sourceAnimationId, targetAnimationId, sourceFrameId, targetFrameId, ptrKeys, size);
+		delete[] ptrKeys;
+	}
 }
 
 /*
@@ -1037,9 +1082,18 @@ void godot::NodeChromaSDK::CopyKeysColorOffset(int sourceAnimationId, int target
 	target animation from the source frame to the target frame. Reference the
 	source and target by name.
 */
-void godot::NodeChromaSDK::CopyKeysColorOffsetName(String sourceAnimation, String targetAnimation, int sourceFrameId, int targetFrameId, int* keys, int size)
+void godot::NodeChromaSDK::CopyKeysColorOffsetName(String sourceAnimation, String targetAnimation, int sourceFrameId, int targetFrameId, Array keys, int size)
 {
-	ChromaAnimationAPI::CopyKeysColorOffsetName(sourceAnimation.utf8().get_data(), targetAnimation.utf8().get_data(), sourceFrameId, targetFrameId, keys, size);
+	if (keys.size())
+	{
+		int* ptrKeys = new int[keys.size()];
+		for (int i = 0; i < keys.size(); ++i)
+		{
+			ptrKeys[i] = (int)keys[i];
+		}
+		ChromaAnimationAPI::CopyKeysColorOffsetName(sourceAnimation.utf8().get_data(), targetAnimation.utf8().get_data(), sourceFrameId, targetFrameId, ptrKeys, size);
+		delete[] ptrKeys;
+	}
 }
 
 /*
@@ -4268,18 +4322,36 @@ double godot::NodeChromaSDK::SetKeyNonZeroColorRGBNameD(String path, double fram
 	Set an array of animation keys to a static color for the given frame. Animation
 	is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysColor(int animationId, int frameId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysColor(int animationId, int frameId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysColor(animationId, frameId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColor(animationId, frameId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames. Animation
 	is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysColorAllFrames(int animationId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysColorAllFrames(int animationId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysColorAllFrames(animationId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColorAllFrames(animationId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
@@ -4304,170 +4376,341 @@ void godot::NodeChromaSDK::SetKeysColorAllFramesName(String path, Array rzkeys, 
 	Set an array of animation keys to a static color for all frames. Animation
 	is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysColorAllFramesRGB(int animationId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysColorAllFramesRGB(int animationId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysColorAllFramesRGB(animationId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColorAllFramesRGB(animationId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames. Animation
 	is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysColorAllFramesRGBName(String path, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysColorAllFramesRGBName(String path, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysColorAllFramesRGBName(path.utf8().get_data(), rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColorAllFramesRGBName(path.utf8().get_data(), ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame.
 */
-void godot::NodeChromaSDK::SetKeysColorName(String path, int frameId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysColorName(String path, int frameId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysColorName(path.utf8().get_data(), frameId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColorName(path.utf8().get_data(), frameId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame. Animation
 	is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysColorRGB(int animationId, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysColorRGB(int animationId, int frameId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysColorRGB(animationId, frameId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColorRGB(animationId, frameId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame. Animation
 	is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysColorRGBName(String path, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysColorRGBName(String path, int frameId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysColorRGBName(path.utf8().get_data(), frameId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysColorRGBName(path.utf8().get_data(), frameId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame if
 	the existing color is not already black.
 */
-void godot::NodeChromaSDK::SetKeysNonZeroColor(int animationId, int frameId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysNonZeroColor(int animationId, int frameId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysNonZeroColor(animationId, frameId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysNonZeroColor(animationId, frameId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is not black. Animation is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysNonZeroColorAllFrames(int animationId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysNonZeroColorAllFrames(int animationId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysNonZeroColorAllFrames(animationId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysNonZeroColorAllFrames(animationId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames if the existing
 	color is not already black. Reference animation by name.
 */
-void godot::NodeChromaSDK::SetKeysNonZeroColorAllFramesName(String path, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysNonZeroColorAllFramesName(String path, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysNonZeroColorAllFramesName(path.utf8().get_data(), rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysNonZeroColorAllFramesName(path.utf8().get_data(), ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame if
 	the existing color is not already black. Reference animation by name.
 */
-void godot::NodeChromaSDK::SetKeysNonZeroColorName(String path, int frameId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysNonZeroColorName(String path, int frameId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysNonZeroColorName(path.utf8().get_data(), frameId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysNonZeroColorName(path.utf8().get_data(), frameId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is not black. Animation is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysNonZeroColorRGB(int animationId, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysNonZeroColorRGB(int animationId, int frameId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysNonZeroColorRGB(animationId, frameId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysNonZeroColorRGB(animationId, frameId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is not black. Animation is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysNonZeroColorRGBName(String path, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysNonZeroColorRGBName(String path, int frameId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysNonZeroColorRGBName(path.utf8().get_data(), frameId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysNonZeroColorRGBName(path.utf8().get_data(), frameId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is black. Animation is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysZeroColor(int animationId, int frameId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysZeroColor(int animationId, int frameId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysZeroColor(animationId, frameId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColor(animationId, frameId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames where the
 	color is black. Animation is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorAllFrames(int animationId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysZeroColorAllFrames(int animationId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysZeroColorAllFrames(animationId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorAllFrames(animationId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames where the
 	color is black. Animation is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorAllFramesName(String path, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysZeroColorAllFramesName(String path, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysZeroColorAllFramesName(path.utf8().get_data(), rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorAllFramesName(path.utf8().get_data(), ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames where the
 	color is black. Animation is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorAllFramesRGB(int animationId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysZeroColorAllFramesRGB(int animationId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysZeroColorAllFramesRGB(animationId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorAllFramesRGB(animationId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for all frames where the
 	color is black. Animation is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorAllFramesRGBName(String path, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysZeroColorAllFramesRGBName(String path, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysZeroColorAllFramesRGBName(path.utf8().get_data(), rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorAllFramesRGBName(path.utf8().get_data(), ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is black. Animation is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorName(String path, int frameId, const int* rzkeys, int keyCount, int color)
+void godot::NodeChromaSDK::SetKeysZeroColorName(String path, int frameId, Array rzkeys, int keyCount, int color)
 {
-	ChromaAnimationAPI::SetKeysZeroColorName(path.utf8().get_data(), frameId, rzkeys, keyCount, color);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorName(path.utf8().get_data(), frameId, ptrRzkeys, keyCount, color);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is black. Animation is referenced by id.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorRGB(int animationId, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysZeroColorRGB(int animationId, int frameId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysZeroColorRGB(animationId, frameId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorRGB(animationId, frameId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*
 	Set an array of animation keys to a static color for the given frame where
 	the color is black. Animation is referenced by name.
 */
-void godot::NodeChromaSDK::SetKeysZeroColorRGBName(String path, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue)
+void godot::NodeChromaSDK::SetKeysZeroColorRGBName(String path, int frameId, Array rzkeys, int keyCount, int red, int green, int blue)
 {
-	ChromaAnimationAPI::SetKeysZeroColorRGBName(path.utf8().get_data(), frameId, rzkeys, keyCount, red, green, blue);
+	if (rzkeys.size())
+	{
+		int* ptrRzkeys = new int[rzkeys.size()];
+		for (int i = 0; i < rzkeys.size(); ++i)
+		{
+			ptrRzkeys[i] = (int)rzkeys[i];
+		}
+		ChromaAnimationAPI::SetKeysZeroColorRGBName(path.utf8().get_data(), frameId, ptrRzkeys, keyCount, red, green, blue);
+		delete[] ptrRzkeys;
+	}
 }
 
 /*

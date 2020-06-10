@@ -308,40 +308,40 @@ namespace godot
 			id.
 		*/
 		void CopyKeysColor(
-			int sourceAnimationId, int targetAnimationId, int frameId, int* keys, int size);
+			int sourceAnimationId, int targetAnimationId, int frameId, Array keys, int size);
 		/*
 			Copy animation color for a set of keys from the source animation to the
 			target animation for all frames. Reference the source and target by id.
 		*/
 		void CopyKeysColorAllFrames(
-			int sourceAnimationId, int targetAnimationId, int* keys, int size);
+			int sourceAnimationId, int targetAnimationId, Array keys, int size);
 		/*
 			Copy animation color for a set of keys from the source animation to the
 			target animation for all frames. Reference the source and target by name.
 		*/
 		void CopyKeysColorAllFramesName(
-			String sourceAnimation, String targetAnimation, int* keys, int size);
+			String sourceAnimation, String targetAnimation, Array keys, int size);
 		/*
 			Copy animation color for a set of keys from the source animation to the
 			target animation for the given frame. Reference the source and target by
 			name.
 		*/
 		void CopyKeysColorName(
-			String sourceAnimation, String targetAnimation, int frameId, int* keys, int size);
+			String sourceAnimation, String targetAnimation, int frameId, Array keys, int size);
 		/*
 			Copy animation color for a set of keys from the source animation to the
 			target animation from the source frame to the target frame. Reference the
 			source and target by id.
 		*/
 		void CopyKeysColorOffset(
-			int sourceAnimationId, int targetAnimationId, int sourceFrameId, int targetFrameId, int* keys, int size);
+			int sourceAnimationId, int targetAnimationId, int sourceFrameId, int targetFrameId, Array keys, int size);
 		/*
 			Copy animation color for a set of keys from the source animation to the
 			target animation from the source frame to the target frame. Reference the
 			source and target by name.
 		*/
 		void CopyKeysColorOffsetName(
-			String sourceAnimation, String targetAnimation, int sourceFrameId, int targetFrameId, int* keys, int size);
+			String sourceAnimation, String targetAnimation, int sourceFrameId, int targetFrameId, Array keys, int size);
 		/*
 			Copy source animation to target animation for the given frame. Source and
 			target are referenced by id.
@@ -2392,13 +2392,13 @@ namespace godot
 			is referenced by id.
 		*/
 		void SetKeysColor(
-			int animationId, int frameId, const int* rzkeys, int keyCount, int color);
+			int animationId, int frameId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for all frames. Animation
 			is referenced by id.
 		*/
 		void SetKeysColorAllFrames(
-			int animationId, const int* rzkeys, int keyCount, int color);
+			int animationId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for all frames. Animation
 			is referenced by name.
@@ -2410,114 +2410,114 @@ namespace godot
 			is referenced by id.
 		*/
 		void SetKeysColorAllFramesRGB(
-			int animationId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			int animationId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for all frames. Animation
 			is referenced by name.
 		*/
 		void SetKeysColorAllFramesRGBName(
-			String path, const int* rzkeys, int keyCount, int red, int green, int blue);
+			String path, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame.
 		*/
 		void SetKeysColorName(
-			String path, int frameId, const int* rzkeys, int keyCount, int color);
+			String path, int frameId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for the given frame. Animation
 			is referenced by id.
 		*/
 		void SetKeysColorRGB(
-			int animationId, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			int animationId, int frameId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame. Animation
 			is referenced by name.
 		*/
 		void SetKeysColorRGBName(
-			String path, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			String path, int frameId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame if
 			the existing color is not already black.
 		*/
 		void SetKeysNonZeroColor(
-			int animationId, int frameId, const int* rzkeys, int keyCount, int color);
+			int animationId, int frameId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is not black. Animation is referenced by id.
 		*/
 		void SetKeysNonZeroColorAllFrames(
-			int animationId, const int* rzkeys, int keyCount, int color);
+			int animationId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for all frames if the existing
 			color is not already black. Reference animation by name.
 		*/
 		void SetKeysNonZeroColorAllFramesName(
-			String path, const int* rzkeys, int keyCount, int color);
+			String path, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for the given frame if
 			the existing color is not already black. Reference animation by name.
 		*/
 		void SetKeysNonZeroColorName(
-			String path, int frameId, const int* rzkeys, int keyCount, int color);
+			String path, int frameId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is not black. Animation is referenced by id.
 		*/
 		void SetKeysNonZeroColorRGB(
-			int animationId, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			int animationId, int frameId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is not black. Animation is referenced by name.
 		*/
 		void SetKeysNonZeroColorRGBName(
-			String path, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			String path, int frameId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is black. Animation is referenced by id.
 		*/
 		void SetKeysZeroColor(
-			int animationId, int frameId, const int* rzkeys, int keyCount, int color);
+			int animationId, int frameId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for all frames where the
 			color is black. Animation is referenced by id.
 		*/
 		void SetKeysZeroColorAllFrames(
-			int animationId, const int* rzkeys, int keyCount, int color);
+			int animationId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for all frames where the
 			color is black. Animation is referenced by name.
 		*/
 		void SetKeysZeroColorAllFramesName(
-			String path, const int* rzkeys, int keyCount, int color);
+			String path, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for all frames where the
 			color is black. Animation is referenced by id.
 		*/
 		void SetKeysZeroColorAllFramesRGB(
-			int animationId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			int animationId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for all frames where the
 			color is black. Animation is referenced by name.
 		*/
 		void SetKeysZeroColorAllFramesRGBName(
-			String path, const int* rzkeys, int keyCount, int red, int green, int blue);
+			String path, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is black. Animation is referenced by name.
 		*/
 		void SetKeysZeroColorName(
-			String path, int frameId, const int* rzkeys, int keyCount, int color);
+			String path, int frameId, Array rzkeys, int keyCount, int color);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is black. Animation is referenced by id.
 		*/
 		void SetKeysZeroColorRGB(
-			int animationId, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			int animationId, int frameId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set an array of animation keys to a static color for the given frame where
 			the color is black. Animation is referenced by name.
 		*/
 		void SetKeysZeroColorRGBName(
-			String path, int frameId, const int* rzkeys, int keyCount, int red, int green, int blue);
+			String path, int frameId, Array rzkeys, int keyCount, int red, int green, int blue);
 		/*
 			Set animation key to a static color for the given frame where the color
 			is black. Animation is referenced by id.
