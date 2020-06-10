@@ -29,7 +29,7 @@ func IsChromaInitialized():
 		else: print("Chroma SDK is not initialized")
 	else: print("Chroma SDK Plugin API is not initialized")
 	return false
-	
+
 
 func showEffect1():
 	ChromaAnimationAPI.UseIdleAnimation(EChromaSDKDeviceEnum.DE_Keyboard, false)
@@ -86,6 +86,725 @@ func showEffect1Keypad():
 	ChromaAnimationAPI.GetAnimation(baseLayer)
 	# play the animation on the dynamic canvas
 	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect2():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect2ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect2Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect2Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect2Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect2Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect3():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# set middle color green
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 255, 0)
+	var minThreshold = 50; #set outer color to red
+	var maxThreshold = 150; #set main color to blue
+	ChromaAnimationAPI.FillThresholdColorsMinMaxAllFramesRGBName(baseLayer, minThreshold, 255, 0, 0, maxThreshold, 0, 0, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect3ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# set middle color green
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 255, 0)
+	var minThreshold = 50; #set outer color to red
+	var maxThreshold = 150; #set main color to blue
+	ChromaAnimationAPI.FillThresholdColorsMinMaxAllFramesRGBName(baseLayer, minThreshold, 255, 0, 0, maxThreshold, 0, 0, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect3Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# set middle color green
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 255, 0)
+	var minThreshold = 50; #set outer color to red
+	var maxThreshold = 150; #set main color to blue
+	ChromaAnimationAPI.FillThresholdColorsMinMaxAllFramesRGBName(baseLayer, minThreshold, 255, 0, 0, maxThreshold, 0, 0, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect3Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# set middle color green
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 255, 0)
+	var minThreshold = 50; #set outer color to red
+	var maxThreshold = 150; #set main color to blue
+	ChromaAnimationAPI.FillThresholdColorsMinMaxAllFramesRGBName(baseLayer, minThreshold, 255, 0, 0, maxThreshold, 0, 0, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect3Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Trails_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# set middle color green
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 255, 0)
+	var minThreshold = 50; #set outer color to red
+	var maxThreshold = 150; #set main color to blue
+	ChromaAnimationAPI.FillThresholdColorsMinMaxAllFramesRGBName(baseLayer, minThreshold, 255, 0, 0, maxThreshold, 0, 0, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect3Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# static color
+	ChromaAnimationAPI.FillZeroColorAllFramesRGBName(baseLayer, 255, 0, 0)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect4():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect4ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect4Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect4Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect4Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect4Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect5():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# turn grayscale particles to blue water
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 127, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect5ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# turn grayscale particles to blue water
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 127, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect5Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# turn grayscale particles to blue water
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 127, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect5Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# turn grayscale particles to blue water
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 127, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect5Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# turn grayscale particles to blue water
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 127, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect5Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/ParticlesOut_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# turn grayscale particles to blue water
+	ChromaAnimationAPI.MultiplyIntensityAllFramesRGBName(baseLayer, 0, 127, 255)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect6():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect6ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect6Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect6Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect6Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect6Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect7():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect7ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect7Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect7Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect7Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect7Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect8():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect8ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect8Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect8Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect8Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect8Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	# fade the start of the animation starting at frame zero to 40
+	ChromaAnimationAPI.FadeStartFramesName(baseLayer, 40)
+	# fade the end of the animation starting at frame length - 40 (60)
+	ChromaAnimationAPI.FadeEndFramesName(baseLayer, 40)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect9():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	#integer number of times to blink during animation
+	var speed = 2;
+	# loop over all frames in the layer
+	for frameId in range(0, frameCount, 1):
+		#Math.cos gives a smooth 1 to 0 to 1 curve, subtracting from one inverts the curve
+		var t = 1 - abs(sin(speed * PI * (frameId + 1) / float(frameCount)))
+		# multiply the frame by the 't' intensity
+		ChromaAnimationAPI.MultiplyIntensityName(baseLayer, frameId, t)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect9ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	#integer number of times to blink during animation
+	var speed = 2;
+	# loop over all frames in the layer
+	for frameId in range(0, frameCount, 1):
+		#Math.cos gives a smooth 1 to 0 to 1 curve, subtracting from one inverts the curve
+		var t = 1 - abs(sin(speed * PI * (frameId + 1) / float(frameCount)))
+		# multiply the frame by the 't' intensity
+		ChromaAnimationAPI.MultiplyIntensityName(baseLayer, frameId, t)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect9Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	#integer number of times to blink during animation
+	var speed = 2;
+	# loop over all frames in the layer
+	for frameId in range(0, frameCount, 1):
+		#Math.cos gives a smooth 1 to 0 to 1 curve, subtracting from one inverts the curve
+		var t = 1 - abs(sin(speed * PI * (frameId + 1) / float(frameCount)))
+		# multiply the frame by the 't' intensity
+		ChromaAnimationAPI.MultiplyIntensityName(baseLayer, frameId, t)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect9Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	#integer number of times to blink during animation
+	var speed = 2;
+	# loop over all frames in the layer
+	for frameId in range(0, frameCount, 1):
+		#Math.cos gives a smooth 1 to 0 to 1 curve, subtracting from one inverts the curve
+		var t = 1 - abs(sin(speed * PI * (frameId + 1) / float(frameCount)))
+		# multiply the frame by the 't' intensity
+		ChromaAnimationAPI.MultiplyIntensityName(baseLayer, frameId, t)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect9Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	#integer number of times to blink during animation
+	var speed = 2;
+	# loop over all frames in the layer
+	for frameId in range(0, frameCount, 1):
+		#Math.cos gives a smooth 1 to 0 to 1 curve, subtracting from one inverts the curve
+		var t = 1 - abs(sin(speed * PI * (frameId + 1) / float(frameCount)))
+		# multiply the frame by the 't' intensity
+		ChromaAnimationAPI.MultiplyIntensityName(baseLayer, frameId, t)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect9Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Blank_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# the length of the animation
+	var frameCount = 50;
+	# set all frames to white, with all frames set to 30PS
+	ChromaAnimationAPI.MakeBlankFramesRGBName(baseLayer, frameCount, 0.033, 255, 255, 255)
+	#integer number of times to blink during animation
+	var speed = 2;
+	# loop over all frames in the layer
+	for frameId in range(0, frameCount, 1):
+		#Math.cos gives a smooth 1 to 0 to 1 curve, subtracting from one inverts the curve
+		var t = 1 - abs(sin(speed * PI * (frameId + 1) / float(frameCount)))
+		# multiply the frame by the 't' intensity
+		ChromaAnimationAPI.MultiplyIntensityName(baseLayer, frameId, t)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect10():
+	# start with a blank animation
+	var baseLayer = "Animations/Particles2_Keyboard.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect10ChromaLink():
+	# start with a blank animation
+	var baseLayer = "Animations/Particles2_ChromaLink.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect10Headset():
+	# start with a blank animation
+	var baseLayer = "Animations/Particles2_Headset.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect10Mousepad():
+	# start with a blank animation
+	var baseLayer = "Animations/Particles2_Mousepad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect10Mouse():
+	# start with a blank animation
+	var baseLayer = "Animations/Particles2_Mouse.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)
+func showEffect10Keypad():
+	# start with a blank animation
+	var baseLayer = "Animations/Particles2_Keypad.chroma";
+	# close the blank animation if it's already loaded, discarding any changes
+	ChromaAnimationAPI.CloseAnimationName(baseLayer)
+	# open the blank animation, passing a reference to the base animation when loading has completed
+	ChromaAnimationAPI.GetAnimation(baseLayer)
+	# play the animation on the dynamic canvas
+	ChromaAnimationAPI.PlayAnimationName(baseLayer, true)	
+
+
 
 func _on_ButtonEffect1_button_up():
 	if (IsChromaInitialized()):
@@ -95,7 +814,6 @@ func _on_ButtonEffect1_button_up():
 		showEffect1Keypad()
 		showEffect1Mouse()
 		showEffect1Mousepad()
-"""
 func _on_ButtonEffect2_button_up():
 	if (IsChromaInitialized()):
 		showEffect2()
@@ -168,6 +886,7 @@ func _on_ButtonEffect10_button_up():
 		showEffect10Keypad()
 		showEffect10Mouse()
 		showEffect10Mousepad()
+"""
 func _on_ButtonEffect11_button_up():
 	if (IsChromaInitialized()):
 		showEffect11()
