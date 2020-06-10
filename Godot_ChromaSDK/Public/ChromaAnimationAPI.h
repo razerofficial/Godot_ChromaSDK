@@ -2452,6 +2452,9 @@ namespace ChromaSDK
 {
 	class ChromaAnimationAPI
 	{
+	private:
+		static bool _sIsInitializedAPI;
+
 	public:
 
 #pragma region API declare prototypes
@@ -4886,6 +4889,7 @@ namespace ChromaSDK
 		CHROMASDK_DECLARE_METHOD(PLUGIN_USE_PRELOADING_NAME, UsePreloadingName);
 #pragma endregion
 
-static int InitAPI();
+		static int InitAPI();
+		static bool GetIsInitializedAPI();
 	};
 }
