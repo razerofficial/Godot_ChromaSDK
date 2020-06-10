@@ -2,7 +2,72 @@
 
 Note: The Chroma SDK for Godot plugin is for the *Windows* platform only!
 
+**Table of Contents**
+
+* [See Also](#see-also)
+* [About](#about)
+* [Quick Start](#quick-start)
+* [Project Setup](#project-setup)
+
+<a name="see-also"></a>
+## See Also
+
+**Docs:**
+
+- [Chroma Animation Guide](http://chroma.razer.com/ChromaGuide/) - Visual examples of the Chroma Animation API methods
+
+**Apps:**
+
+- [ChromaClientForDiscord](https://github.com/tgraupmann/ChromaDiscordApp) - Add Chroma lighting to the Discord App events
+
+- [ChromaClientForMixer](https://github.com/tgraupmann/ChromaClientForMixer) - Add Chroma lighting to the Mixer streaming experience
+
+- [ChromaClientForTwitch](https://github.com/tgraupmann/ChromaTwitchExtension) - Add Chroma lighting to the Twitch streaming experience
+
+**Plugins:**
+
+- [CChromaEditor](https://github.com/RazerOfficial/CChromaEditor) - C++ native MFC library for playing and editing Chroma animations
+
+- [GameMakerChromaExtension](https://github.com/RazerOfficial/GameMakerChromaExtension) - GameMaker extension to control lighting for Razer Chroma
+
+- [Godot_ChromaSDK](https://github.com/RazerOfficial/Godot_ChromaSDK) - Godot native library for playing Chroma animations
+
+- [HTML5ChromaSDK](https://github.com/RazerOfficial/HTML5ChromaSDK) - JavaScript library for playing Chroma animations
+
+- [UE4_XDK_SampleApp](https://github.com/razerofficial/UE4_XDK_SampleApp) - UE4 Chroma samples and runtime module with Blueprint library for the ChromaSDK
+
+- [UnityNativeChromaSDK](https://github.com/RazerOfficial/UnityNativeChromaSDK) - Unity native library for the ChromaSDK
+
+<a name="about"></a>
+## About
+
+* [GodotHello](GodotHello)
+
+The `GodotHello` project is a Godot sample app that shows the animations from the [Chroma Animation Guide](http://chroma.razer.com/ChromaGuide/).
+
+**Screenshot:**
+
+![image_1](images/image_1.png)
+
+## Quick Start
+
+![image_2](images/image_2.png)
+
+* `Animations` - Sample folder for `Chroma` animation files
+
+* `CChromaEditorLibrary64.dll` - Adds `Chroma` animation support and uses the `ChromaSDK`
+
+* `chromasdk_gdnativelibrary.gdnlib` - Native Godot library for the `ChromaSDK`
+
+* `Godot_ChromaSDK.dll` - Native Godot library that makes the `ChromaAnimation` library available
+
+* `NodeChromaSDK.gdns` - Godot native script connector
+
+* `NodeSample.gd` - Sample `gdscript` that uses the `ChromaAnimation` API
+
 ## Project Setup
+
+These are the steps to build the `Godot_ChromaSDK.dll` library.
 
 * First generate the Godot include files
 
@@ -80,15 +145,3 @@ libgodot-cpp.windows.debug.default.lib
 ```
 C:\Public\gdnative_cpp_example\godot-cpp\bin
 ```
-
-## Next Steps
-
-* Tutorial: [Create and Implement C++ Dll's with GDNative | Tutorial Part 4](https://www.youtube.com/watch?v=aPDO9nAP5oM)
-
-* Hook Godot into the API automation
-
-## Sample Projects
-
-* [GodotHello](GodotHello)
-
-![image_1](images/image_1.png)
