@@ -18,6 +18,17 @@ extern "C" void GDN_EXPORT godot_gdnative_init(godot_gdnative_init_options * o) 
 		else
 		{
 			fprintf(stdout, "godot_gdnative_init: Not in editor\r\n");
+			if (!ChromaAnimationAPI::GetIsInitializedAPI())
+			{
+				if (ChromaAnimationAPI::InitAPI() == 0)
+				{
+					fprintf(stderr, "Loaded Chroma SDK Plugin!\r\n");
+				}
+				else
+				{
+					fprintf(stderr, "Failed to loaded Chroma SDK Plugin!\r\n");
+				}
+			}
 		}
 	}
 }

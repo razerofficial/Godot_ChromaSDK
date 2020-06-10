@@ -511,14 +511,6 @@ void NodeChromaSDK::_init() {
 }
 
 NodeChromaSDK::NodeChromaSDK() {
-	if (ChromaAnimationAPI::InitAPI() == 0)
-	{
-		fprintf(stderr, "Loaded Chroma SDK Plugin!\r\n");
-	}
-	else
-	{
-		fprintf(stderr, "Failed to loaded Chroma SDK Plugin!\r\n");
-	}
 }
 
 NodeChromaSDK::~NodeChromaSDK()

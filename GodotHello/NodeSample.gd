@@ -3870,19 +3870,18 @@ func showEffect45():
 		ChromaAnimationAPI.SetKeysColorAllFramesRGBName(baseLayer,  keys, keys.size(),  255,  255,  0)
 	if true:
 		var keys = Array()
-		keys.append(Keyboard.RZKEY_F1)
-		keys.append(Keyboard.RZKEY_F2)
-		keys.append(Keyboard.RZKEY_F3)
-		keys.append(Keyboard.RZKEY_F4)
-		keys.append(Keyboard.RZKEY_F5)
-		keys.append(Keyboard.RZKEY_F6)
+		keys.append(Keyboard.RZKEY.RZKEY_F1)
+		keys.append(Keyboard.RZKEY.RZKEY_F2)
+		keys.append(Keyboard.RZKEY.RZKEY_F3)
+		keys.append(Keyboard.RZKEY.RZKEY_F4)
+		keys.append(Keyboard.RZKEY.RZKEY_F5)
+		keys.append(Keyboard.RZKEY.RZKEY_F6)
 		var t = 0;
 		var speed = 0.05;
 		for frameId in range(0, frameCount, 1):
 			t += speed;
 			var hp = abs(cos(PI / 2.0 + t))
 			for i in range(0, keys.size(), 1):
-				var ratio = (i + 1) / float(keys.size());
 				var color = ChromaAnimationAPI.GetRGB(0, 255 * (1 - hp), 0)
 				if ((i + 1) / float(keys.size() + 1) < hp):
 					color = ChromaAnimationAPI.GetRGB(0, 255, 0)
@@ -3974,21 +3973,20 @@ func showEffect46():
 		ChromaAnimationAPI.SetKeysColorAllFramesRGBName(baseLayer,  keys, keys.size(),  255,  0,  0)
 	if true:
 		var keys = Array()
-		keys.append(Keyboard.RZKEY_F7)
-		keys.append(Keyboard.RZKEY_F8)
-		keys.append(Keyboard.RZKEY_F9)
-		keys.append(Keyboard.RZKEY_F10)
-		keys.append(Keyboard.RZKEY_F11)
-		keys.append(Keyboard.RZKEY_F12)
+		keys.append(Keyboard.RZKEY.RZKEY_F7)
+		keys.append(Keyboard.RZKEY.RZKEY_F8)
+		keys.append(Keyboard.RZKEY.RZKEY_F9)
+		keys.append(Keyboard.RZKEY.RZKEY_F10)
+		keys.append(Keyboard.RZKEY.RZKEY_F11)
+		keys.append(Keyboard.RZKEY.RZKEY_F12)
 		var t = 0;
 		var speed = 0.05;
 		for frameId in range(0, frameCount, 1):
 			t += speed;
 			var hp = abs(cos(PI / 2.0 + t))
-			for i in range(0, keys.length, 1):
-				var ratio = (i + 1) / keys.length;
+			for i in range(0, keys.size(), 1):
 				var color = ChromaAnimationAPI.GetRGB(255 * (1 - hp), 255 * (1 - hp), 0)
-				if ((i + 1) / float(keys.size + 1) < hp):
+				if ((i + 1) / float(keys.size() + 1) < hp):
 					color = ChromaAnimationAPI.GetRGB(255, 255, 0)
 				else:
 					color = ChromaAnimationAPI.GetRGB(100, 100, 0)
