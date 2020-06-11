@@ -58,6 +58,8 @@ The `GodotHello` project is a Godot sample app that shows the animations from th
 
 ## Quick Start
 
+* Download a prebuilt binary from [releases](https://github.com/razerofficial/Godot_ChromaSDK/releases/) and place in the project folder
+
 ![image_2](images/image_2.png)
 
 * `Animations` - Sample folder for `Chroma` animation files
