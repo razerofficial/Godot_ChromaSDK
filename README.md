@@ -49,6 +49,11 @@ The `GodotHello` project is a Godot sample app that shows the animations from th
 
 ![image_1](images/image_1.png)
 
+**Video:**
+
+<a target="_blank" href="https://www.youtube.com/watch?v=U50sp-QumDg">![video](https://img.youtube.com/vi/U50sp-QumDg/0.jpg)</a>
+
+
 ## Quick Start
 
 ![image_2](images/image_2.png)
