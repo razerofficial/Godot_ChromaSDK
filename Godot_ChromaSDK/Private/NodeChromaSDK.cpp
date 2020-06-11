@@ -530,12 +530,12 @@ bool godot::NodeChromaSDK::IsAPIInitialized()
 {
 	if (ChromaAnimationAPI::GetIsInitializedAPI())
 	{
-		fprintf(stdout, "Chroma SDK Plugin is initialized!\r\n");
+		//fprintf(stdout, "Chroma SDK Plugin is initialized!\r\n");
 		return true;
 	}
 	else
 	{
-		fprintf(stderr, "Chroma SDK Plugin is not initialized!\r\n");
+		//fprintf(stderr, "Chroma SDK Plugin is not initialized!\r\n");
 		return false;
 	}
 }

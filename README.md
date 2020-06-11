@@ -130,6 +130,8 @@ c:\Python27\python.exe -m pip install scons
 SET PATH=C:\Python27;%PATH%
 ```
 
+## Debug Build
+
 * Generate the C++ bindings from the `gdnative_cpp_example` folder
 
 ```
@@ -146,6 +148,27 @@ cd godot-cpp
 ```
 libgodot-cpp.windows.debug.default.lib
 ```
+
+## Release Build
+
+* Generate the C++ bindings from the `gdnative_cpp_example` folder
+
+```
+cd godot-cpp
+"%USERPROFILE%\Downloads\Godot\scons-3.1.2\script\scons.bat" platform=windows target=release generate_bindings=yes -j4
+```
+
+* Add C++ include folders to the project
+
+**C:\Public\gdnative_cpp_example\godot-cpp\include;C:\Public\gdnative_cpp_example\godot-cpp\include\core;C:\Public\gdnative_cpp_example\godot-cpp\godot_headers;C:\Public\gdnative_cpp_example\godot-cpp\include\gen**
+
+* Add the godot library to the project
+
+```
+libgodot-cpp.windows.release.default.lib
+```
+
+## All
 
 * Add to `Linker` General `Additional Library Directories`
 
