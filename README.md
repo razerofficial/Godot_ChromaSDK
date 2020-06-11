@@ -51,6 +51,8 @@ The `GodotHello` project is a Godot sample app that shows the animations from th
 
 **Video:**
 
+**Godot Native Plugin - Chroma SDK**
+
 <a target="_blank" href="https://www.youtube.com/watch?v=U50sp-QumDg">![video](https://img.youtube.com/vi/U50sp-QumDg/0.jpg)</a>
 
 
