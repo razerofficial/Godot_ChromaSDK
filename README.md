@@ -14,19 +14,21 @@ Note: The Chroma SDK for Godot plugin is for the *Windows* platform only!
 
 **Docs:**
 
+**Docs:**
+
 - [Chroma Animation Guide](http://chroma.razer.com/ChromaGuide/) - Visual examples of the Chroma Animation API methods
 
 **Apps:**
 
 - [ChromaClientForDiscord](https://github.com/tgraupmann/ChromaDiscordApp) - Add Chroma lighting to the Discord App events
 
-- [ChromaClientForMixer](https://github.com/tgraupmann/ChromaClientForMixer) - Add Chroma lighting to the Mixer streaming experience
-
 - [ChromaClientForTwitch](https://github.com/tgraupmann/ChromaTwitchExtension) - Add Chroma lighting to the Twitch streaming experience
 
 **Plugins:**
 
 - [CChromaEditor](https://github.com/RazerOfficial/CChromaEditor) - C++ native MFC library for playing and editing Chroma animations
+
+- [ClickTeamFusion_ChromaSDK](https://github.com/RazerOfficial/ClickTeamFusion_ChromaSDK) - Click Team Fusion Chroma SDK Extension for playing Chroma animations
 
 - [GameMakerChromaExtension](https://github.com/RazerOfficial/GameMakerChromaExtension) - GameMaker extension to control lighting for Razer Chroma
 
@@ -57,6 +59,14 @@ The `GodotHello` project is a Godot sample app that shows the animations from th
 
 
 ## Quick Start
+
+* Install [Synapse](https://www.razer.com/synapse-3)
+
+* Make sure the Chroma Connect module is installed.
+
+![image_3](images/image_3.png)
+
+* If you don't have Chroma hardware, you can see Chroma effects with the [Chroma Emulator](https://github.com/razerofficial/ChromaEmulator)
 
 * Download a prebuilt binary from [releases](https://github.com/razerofficial/Godot_ChromaSDK/releases/) and place in the project folder
 
