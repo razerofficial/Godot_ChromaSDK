@@ -14,8 +14,6 @@ Note: The Chroma SDK for Godot plugin is for the *Windows* platform only!
 
 **Docs:**
 
-**Docs:**
-
 - [Chroma Animation Guide](http://chroma.razer.com/ChromaGuide/) - Visual examples of the Chroma Animation API methods
 
 **Apps:**
