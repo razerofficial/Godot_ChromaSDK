@@ -554,6 +554,10 @@ typedef RZRESULT	(*PLUGIN_CORE_INIT)();
 /*
 	Direct access to low level API.
 */
+typedef RZRESULT	(*PLUGIN_CORE_INIT_SDK)(ChromaSDK::APPINFOTYPE* AppInfo);
+/*
+	Direct access to low level API.
+*/
 typedef RZRESULT	(*PLUGIN_CORE_QUERY_DEVICE)(RZDEVICEID DeviceId, ChromaSDK::DEVICE_INFO_TYPE& DeviceInfo);
 /*
 	Direct access to low level API.
@@ -1228,6 +1232,12 @@ typedef RZRESULT	(*PLUGIN_INIT)();
 	D suffix for limited data types.
 */
 typedef double		(*PLUGIN_INIT_D)();
+/*
+	Initialize the ChromaSDK. AppInfo populates the details in Synapse. Zero 
+	indicates  success, otherwise failure. Many API methods auto initialize 
+	the ChromaSDK if not already initialized.
+*/
+typedef RZRESULT	(*PLUGIN_INIT_SDK)(ChromaSDK::APPINFOTYPE* AppInfo);
 /*
 	Insert an animation delay by duplicating the frame by the delay number of 
 	times. Animation is referenced by id.
@@ -2423,6 +2433,16 @@ typedef void		(*PLUGIN_UNLOAD_COMPOSITE)(const char* name);
 */
 typedef int			(*PLUGIN_UPDATE_FRAME)(int animationId, int frameIndex, float duration, int* colors, int length);
 /*
+	Updates the `frameIndex` of the `Chroma` animation and sets the `duration` 
+	(in seconds). The `color` is expected to be an array of the dimensions 
+	for the `deviceType/device`. The `length` parameter is the size of the 
+	`color` array. For `EChromaSDKDevice1DEnum` the array size should be `MAX 
+	LEDS`. For `EChromaSDKDevice2DEnum` the array size should be `MAX ROW` 
+	* `MAX COLUMN`. Returns the animation id upon success. Returns -1 upon 
+	failure.
+*/
+typedef int			(*PLUGIN_UPDATE_FRAME_NAME)(const char* path, int frameIndex, float duration, int* colors, int length);
+/*
 	When the idle animation flag is true, when no other animations are playing, 
 	the idle animation will be used. The idle animation will not be affected 
 	by the API calls to PluginIsPlaying, PluginStopAnimationType, PluginGetPlayingAnimationId, 
@@ -2994,6 +3014,10 @@ namespace ChromaSDK
 			Direct access to low level API.
 		*/
 		CHROMASDK_DECLARE_METHOD(PLUGIN_CORE_INIT, CoreInit);
+		/*
+			Direct access to low level API.
+		*/
+		CHROMASDK_DECLARE_METHOD(PLUGIN_CORE_INIT_SDK, CoreInitSDK);
 		/*
 			Direct access to low level API.
 		*/
@@ -3671,6 +3695,12 @@ namespace ChromaSDK
 			D suffix for limited data types.
 		*/
 		CHROMASDK_DECLARE_METHOD(PLUGIN_INIT_D, InitD);
+		/*
+			Initialize the ChromaSDK. AppInfo populates the details in Synapse. Zero 
+			indicates  success, otherwise failure. Many API methods auto initialize 
+			the ChromaSDK if not already initialized.
+		*/
+		CHROMASDK_DECLARE_METHOD(PLUGIN_INIT_SDK, InitSDK);
 		/*
 			Insert an animation delay by duplicating the frame by the delay number of 
 			times. Animation is referenced by id.
@@ -4865,6 +4895,16 @@ namespace ChromaSDK
 			failure.
 		*/
 		CHROMASDK_DECLARE_METHOD(PLUGIN_UPDATE_FRAME, UpdateFrame);
+		/*
+			Updates the `frameIndex` of the `Chroma` animation and sets the `duration` 
+			(in seconds). The `color` is expected to be an array of the dimensions 
+			for the `deviceType/device`. The `length` parameter is the size of the 
+			`color` array. For `EChromaSDKDevice1DEnum` the array size should be `MAX 
+			LEDS`. For `EChromaSDKDevice2DEnum` the array size should be `MAX ROW` 
+			* `MAX COLUMN`. Returns the animation id upon success. Returns -1 upon 
+			failure.
+		*/
+		CHROMASDK_DECLARE_METHOD(PLUGIN_UPDATE_FRAME_NAME, UpdateFrameName);
 		/*
 			When the idle animation flag is true, when no other animations are playing, 
 			the idle animation will be used. The idle animation will not be affected 
